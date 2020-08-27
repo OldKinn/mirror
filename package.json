@@ -9,7 +9,7 @@
     "test:cov": "jest --coverage",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "lint": "eslint src test",
-    "build": "rm -rf lib && babel src -d lib --no-comments",
+    "build": "babel src -d lib --no-comments",
     "bundle": "webpack -p"
   },
   "main": "./lib/index.js",
@@ -28,37 +28,35 @@
   },
   "license": "MIT",
   "dependencies": {
-    "history": "^4.7.2",
-    "react-redux": "^5.0.7",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
-    "react-router-redux": "^5.0.0-alpha.9",
-    "redux": "^4.0.0"
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5"
   },
   "peerDependencies": {
     "prop-types": ">=15",
-    "react": ">=15",
-    "react-dom": ">=15"
+    "react": ">=16",
+    "react-dom": ">=16"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.0.0",
-    "@babel/plugin-transform-runtime": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^10.0.3",
-    "babel-jest": "^25.3.0",
-    "babel-loader": "^8.0.0",
-    "coveralls": "^3.0.2",
-    "eslint": "^6.2.2",
-    "eslint-plugin-react": "^7.11.1",
-    "jest": "^25.3.0",
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.1.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^7.7.0",
+    "eslint-plugin-react": "^7.20.6",
+    "jest": "^26.4.2",
     "prop-types": "^15.6.2",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
-    "webpack": "^4.39.3",
-    "webpack-cli": "^3.3.7"
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   },
   "files": [
     "lib/",

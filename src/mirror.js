@@ -1,33 +1,15 @@
-import { Route, Redirect, Switch, Prompt, withRouter } from 'react-router'
-import { Link, NavLink } from 'react-router-dom'
-import { connect } from 'react-redux'
-import model from './model'
-import { actions } from './actions'
-import render from './render'
-import hook from './hook'
-import Router from './router'
-import defaults from './defaults'
-import createMiddleware from './middleware'
-import toReducers from './toReducers'
-
-const middleware = createMiddleware()
+import model from './model';
+import { actions } from './actions';
+import render from './render';
+import hook from './hook';
+import defaults from './defaults';
+import toReducers from './toReducers';
 
 export {
-  model,
-  actions,
-  hook,
-  defaults,
-  connect,
-  render,
-  middleware,
-  toReducers,
-
-  Router,
-  Route,
-  Link,
-  NavLink,
-  Switch,
-  Redirect,
-  Prompt,
-  withRouter
-}
+    model,
+    actions,
+    hook,
+    defaults,
+    render,
+    toReducers,
+};

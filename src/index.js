@@ -1,6 +1,5 @@
-import * as mirror from './mirror'
+import * as mirror from './mirror';
 
-export default mirror
+export default mirror;
 
-export * from './mirror'
-
+export * from './mirror';
