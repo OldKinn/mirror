@@ -1,5 +1,5 @@
 {
-  "name": "mirrorx",
+  "name": "@ccreator/mirror",
   "version": "1.1.1",
   "description": "A React framework with minimal API and zero boilerplate.",
   "scripts": {
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:mirrorjs/mirror.git"
+    "url": "https://github.com/OldKinn/mirror.git"
   },
   "license": "MIT",
   "dependencies": {
